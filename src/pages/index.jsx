@@ -36,7 +36,7 @@ export default function Home() {
                 local startups to Fortune 500 companies across various industries and verticals. We pride ourselves on providing
                 high-quality and insightful work to our clients while developing our consultants professionally and personally.
             </p>
-            <button className="primary-button">WHO WE ARE</button>
+            <button className="primary-button">Who we are</button>
             </div>
         </div>
       </section>
