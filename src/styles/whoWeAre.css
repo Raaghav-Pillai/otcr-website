@@ -5,14 +5,15 @@
   /* Hero Section */
   .who-hero {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     color: white;
   }
   
   .who-hero .overlay {
-    background-color: rgba(0, 40, 85, 0.7);
+    /* background-color: rgba(0, 40, 85, 0.7); */
+    background-color: rgba(10, 26, 44, 0.7);
     height: 100%;
     width: 100%;
     display: flex;
@@ -36,7 +37,8 @@
   }
   
   .hero-content p {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
     /* font-weight: bold; */
   }
   
