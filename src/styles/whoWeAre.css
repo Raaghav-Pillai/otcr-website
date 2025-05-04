@@ -131,11 +131,17 @@
   }
 
   /* After OTCR Section */
-.after-otcr-section {
-    padding: 60px 40px;
-    background-color: #ffffff;
+  .after-otcr-section {
+    padding: 2rem 0;
+    background-color: #fff;
     text-align: center;
   }
+  
+  .carousel-image {
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }  
   
   .after-otcr-section h2 {
     font-size: 2rem;

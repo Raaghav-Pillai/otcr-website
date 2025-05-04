@@ -1,4 +1,8 @@
 import '../styles/whoWeAre.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 export default function WhoWeAre() {
   return (
@@ -57,9 +61,23 @@ export default function WhoWeAre() {
       {/* After OTCR Section */}
       <section className="after-otcr-section">
         <h2>After OTCR</h2>
-        <div className="after-otcr-image-container">
-            <img src="/images/after-otcr.jpg" alt="Companies OTCR alumni have joined" />
-        </div>
+        <Slider
+          dots={false}
+          infinite={true}
+          speed={1000}
+          slidesToShow={1}
+          slidesToScroll={1}
+          autoplay={true}
+          autoplaySpeed={6000}
+          arrows={false}
+        >
+          <div>
+            <img src="/images/after-otcr.jpg" alt="Logo Group 1" className="carousel-image" />
+          </div>
+          <div>
+            <img src="/images/after-otcr2.jpg" alt="Logo Group 2" className="carousel-image" />
+          </div>
+        </Slider>
       </section>
     </div>
   );
